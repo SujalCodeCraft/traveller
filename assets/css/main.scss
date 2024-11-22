@@ -1,0 +1,760 @@
+//home page css 
+* {
+    font-family: "Outfit", sans-serif;
+}
+
+.first-box {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3px 0px;
+
+    p {
+        margin: 0;
+    }
+
+    button {
+        padding: 2px 0.9rem;
+        margin: auto 1rem;
+        background-color: rgb(216, 156, 3);
+    }
+}
+header {
+    position: sticky;
+    top: -1px;
+    background-color: transparent;
+
+    nav {
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .nav-content {
+
+            ul {
+                display: flex;
+                list-style-type: none;
+                align-items: center;
+                gap: 3rem;
+                margin: 0;
+
+                button {
+                    border: 1px solid black;
+                    background-color: black;
+                    color: white;
+                }
+
+                .btn2 {
+                    margin-left: 4rem;
+                }
+                .dropdown{
+                    ul{
+                       li{
+                         display: block !important;
+                         visibility: hidden;
+                       }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+.home-main {
+    height: 800px;
+    background-image: url(../images/slider.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+    header {
+        position: sticky;
+        top: -1px;
+        background-color: rgb(193, 224, 239);
+        z-index: 2;
+
+        nav {
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            .nav-content {
+
+                ul {
+                    display: flex;
+                    list-style-type: none;
+                    align-items: center;
+                    gap: 3rem;
+                    margin: 0;
+
+                    button {
+                        border: 1px solid black;
+                        background-color: black;
+                        color: white;
+                    }
+
+                    .btn2 {
+                        margin-left: 4rem;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .home-main-slider {
+        position: relative;
+        top: 8rem;
+
+        .home-main-left {
+            position: absolute;
+            height: 20rem;
+            padding-left: 2rem;
+            bottom: 3rem;
+
+            img {
+                border: 4px solid white;
+                border-radius: 250px;
+
+            }
+
+            .slider1-img {
+                height: 25rem;
+                position: absolute;
+                // width: 100px;
+            }
+
+            .slider2-img {
+                height: 20rem;
+                position: relative;
+                // right: 7rem;
+                top: 10rem;
+                left: 10rem;
+
+            }
+
+        }
+
+        .home-main-middle {
+            text-align: center;
+            padding-top: 1rem;
+
+            // height: 15rem;
+            .p-1 {
+                font-size: 1.5rem;
+                letter-spacing: 5px;
+                margin: 0;
+                margin-top: 1rem;
+            }
+
+            .p-2 {
+                font-size: 50px;
+                font-weight: bolder;
+                line-height: 4rem;
+            }
+        }
+
+    }
+
+}
+
+.ticket-booking {
+    position: relative;
+    bottom: 10rem;
+    display: flex;
+    justify-content: center;
+
+    .ticket-booking-main {
+        border: 1px solid black;
+        background-color: white;
+        width: 50vw;
+        padding: 2rem 1rem;
+        border-radius: 1rem;
+
+        .booking-first-ul {
+            margin: 0;
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+            padding-left: 0;
+
+            li {
+                &:hover {
+                    border-bottom: 3px solid orange;
+                }
+            }
+
+            span {
+                margin-right: 10px;
+            }
+        }
+    }
+
+    hr {
+        margin: 0px;
+    }
+
+    .input0 {
+        border: 2px solid grey;
+    }
+
+    .input1 {
+        padding: 5px 10px;
+        margin-right: 5px;
+        border-radius: 5px;
+        // border-color: darkgrey;
+        width: 30%;
+    }
+
+    .Guest {
+        padding: 7px 10px;
+        border-radius: 5px;
+        width: 37%;
+
+    }
+
+    button {
+        width: 100%;
+        background-color: orange;
+
+        &:hover {
+            background-color: orange;
+        }
+    }
+
+    .checkbox {
+        text-align: end;
+    }
+}
+
+.destination-main {
+    text-align: center;
+    padding: 2rem 0rem;
+
+    h4 {
+        font-size: 2.5rem;
+    }
+
+    .desti-main {
+        .row {
+            padding: 1rem 0rem;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        padding: 1rem 5rem;
+
+        .desti-box {
+            position: relative;
+
+            .dest-text {
+                position: absolute;
+                bottom: -4.5rem;
+                padding: 0rem 2rem;
+
+                p {
+                    background-color: white;
+                    border-radius: 10px;
+                    padding: 5px;
+                    box-shadow: 1px 2px 24px -7px rgb(183 176 176);
+
+                }
+            }
+
+        }
+    }
+
+    .last-btn {
+        margin-top: 6rem;
+        text-align: center;
+
+        button {
+            background-color: black;
+            color: white;
+            padding: 9px 10px;
+            border-radius: 1rem;
+        }
+    }
+}
+.lovely-places{
+    background-color: #2b2437;
+    color: white;
+    padding: 3rem 1px;
+    .text-main{
+        padding: 2rem 1px;
+        h2{
+            font-size: 3rem;
+            max-width: 60%;
+        }
+        p{
+            max-width: 80%;
+        }
+    }
+    .right-main-img{
+        padding-left: 3rem;
+    }
+    .destination-main{
+        background-color:#322940 ;
+        border-radius: 1rem;
+        padding: 1rem;
+        text-align: start;
+        max-width: 90%;
+        .text-main-p1{
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+    }
+    .contact-main{
+        padding: 1rem 0px;
+        i{
+            font-size: 2rem;
+            margin: 10px;
+        }
+        .p-2{
+           
+            font-size: 1.5rem;
+            margin: 0;
+            margin-left: 1rem;
+        }
+    }
+}
+.achievment-section{
+    padding-bottom: 2rem;
+    background-color: #352d43;
+    color: white;
+    text-align: center;
+    button{
+        position: relative;
+        bottom: 1.5rem;
+        background-color: orange;
+        padding: 10px 15px ;
+        border-radius: 2rem;
+    }
+    .achive-p1{
+        text-align: center;
+        // max-width: 80%;
+        padding: 1px 22%;
+       
+    }
+    
+.plus-main-box{
+    padding: 0;
+    margin: 1rem 1px;
+    .num{
+        font-size: 2.5rem;
+    }
+}
+
+
+}
+.hotel-advise{
+    border: 1px solid black;
+    text-align: center;
+    padding: 3rem 0rem;
+    .sec-heading{
+        font-size: 2rem;
+        font-weight: 500;
+
+    }
+}
+.app-download{
+    background-color: #2b2437;
+    color: white;
+    padding: 2.5rem 1px;
+    padding-bottom: 0;
+    margin-bottom: 2rem;
+    .app-image{
+        img{
+            width: 100%;
+        }
+    }
+    .app-text-main{
+        padding: 3rem 0rem;
+        padding-left: 2rem;
+        h2{
+            font-size: 3rem;
+            max-width: 92%;
+        }
+        P{
+            // max-width: 90%;
+            margin: 2rem 1px;
+        }
+        img{
+            margin: 1rem;
+            margin-left: 0;
+        }
+    }
+}
+.booking-step-main{
+    padding: 2rem 1px;
+    .heading{
+        text-align: center;
+    }
+  .card-main-box{
+    margin: 2rem 1px;
+    padding: 1px 2.5rem;
+    .card-main{
+        box-shadow: 1px 2px 24px -7px rgb(183 176 176);
+        border-radius: 1rem;
+        text-align: center;
+        padding: 1.5rem 1rem;
+        .step-num{
+            text-align: start;
+            font-size: 3.5rem ;
+            font-weight: 600;
+            color: lightgrey;
+            margin: 0;
+        }
+        i{
+            font-size: 3rem;
+            color: orange;
+        }
+        p{
+            padding: 1px 1rem;
+        }
+        h4{
+            margin: 1rem 1px;
+        }
+    }
+  }
+}
+.about-main-section{
+    background-image: url(../images/testibg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    .about-card-main{
+        box-shadow: 1px 2px 24px -7px rgb(183 176 176);
+        padding: 2rem;
+        border-radius: 1rem;
+        background-color: white;
+        .card-heading{
+            font-size: 1.5rem;
+            font-weight: 500;
+            max-width: 60%;
+        }
+    }
+}
+.latest-blog-sec{
+    padding: 3rem 1px;
+    .heading-main{
+        text-align: center;
+    }
+    .blog-card-main{
+        border-radius: 1rem;
+        margin: 1rem 1px;
+        .main-text{
+            font-size: 20px;
+            font-weight: 400;
+        }
+        
+        img{
+            width: 100%;
+            border-radius: 1rem;
+        }
+    }
+    
+}
+.offer-section{
+    padding: 2rem;
+    .container{
+        background-color: orange;
+        border-radius: 1rem;
+        color: white;
+        padding: 1rem;
+    }
+    .offers-main-box{
+        padding: 1.5rem;
+        border-radius: 1rem;
+        .offer-main-text{
+            font-size: 2.5rem;
+            font-weight: 500;
+            max-width: 80%;
+        }
+    }
+    .offer-btn-main{
+        height: 225px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        button{
+            padding: 10px 10px;
+            border-radius: 1rem;
+        }
+
+    }
+}
+footer{
+    padding: 3rem 1rem;
+    .footer-main-column{
+        padding: 5px;
+        ul{
+            li{
+                margin: 1rem ;
+                list-style-type:none;
+                i{
+                    font-size: 20px;
+                    margin: 5px;
+                    color: orange;
+                }
+                input{
+                    border-radius: 1rem;
+                    padding: 5px;
+                    padding-left: 1rem;
+                }
+            }
+            .first-li{
+                font-size: 20px;
+                font-weight: 500;
+                margin: 10px auto;
+            }
+        }
+    }
+
+}
+.last-reserved{
+    background-color: lightgrey;
+    padding: 1rem ;
+    p{
+        margin: 0;
+    }
+}
+.contact-main{
+    background-image: url(../images/contactbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    .main-text{
+        padding: 5rem 3rem  0rem 3rem;
+        text-align: center  ;
+        color: orange;
+        width: 30%;
+        margin: 0 auto;
+        p{
+            color: white;
+        }
+    }
+}
+.contactus-box-sec{
+    padding: 3rem;
+    .box-main{
+        background-color: orange;
+        border-radius: 1rem;
+        text-align: center;
+        color: white;
+        padding: 2rem;
+        i{
+        }
+        p{
+            margin: 5px 2px;
+        }
+    }
+}
+.contact-form-main{
+    background-color: lightgray;
+    textarea{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+
+@media only screen and (max-width:576px){
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .nav-content{
+        display: none;
+    }
+    .home-main .home-main-slider .home-main-left .slider2-img{
+        left: 0;
+    }
+    .home-main .home-main-slider{
+        top: 0;
+    }
+    .first-box p{
+        font-size: 14px;
+    }
+    .home-main header nav{
+        padding: 1rem;
+    }
+    .home-main-left{
+        display: none   ;
+    }
+    .home-main .home-main-slider .home-main-middle .p-2{
+        font-size: 32px;
+        line-height: normal;
+    }
+    .home-main{
+        height: 500px;
+    }
+    .ticket-booking .ticket-booking-main{
+        width: auto;
+    }
+    .ticket-booking .input1{
+        width: 28%;
+    }
+    .destination-main .desti-main{
+        padding: 0;
+    }
+    .destination-main .desti-main .desti-box .dest-text {
+        position: relative;
+        /* bottom: -4.5rem; */
+        padding: 0rem 1rem;
+        top: -3rem;
+    }
+    .destination-main .last-btn{
+        margin-top: 0;
+    }
+    .lovely-places{
+        padding: 0;
+        text-align: center;
+    }
+    .lovely-places .text-main h2{
+        max-width: 100%;
+        font-size: 2.1rem;
+    }
+    .lovely-places .text-main p {
+        min-width: 100%;
+        padding: 1.2rem;
+    }
+    .lovely-places .destination-main{
+        max-width: 100%;
+        text-align: center;
+        margin: 0.5rem 0;
+    }
+    .contact-main{
+        height: fit-content;
+        border-radius: 0.5rem;
+        >:first-child{
+            margin-bottom: 0;
+        }
+    }
+    .lovely-places .right-main-img{
+        padding: 1rem;
+    }
+    .achievment-section .achive-p1{
+        padding: 0.2rem;
+    }
+    .achievment-section .plus-main-box{
+        >:first-child{
+            font-size: 1.5rem;
+            margin-bottom: 0;
+        }
+        >:last-child{
+            font-size: 12px;
+        }
+    }
+    .hotel-advise .sec-heading{
+        font-size: 1.8rem;
+        line-height: normal;
+      
+    }
+    .hotel-advise{
+        .sec-heading-2{
+            display: none;
+        }
+        .hotel-card-main{
+            border: 1px solid black;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border-radius: 0.5rem;
+            p{
+                margin-bottom: 0;
+                line-height: normal;
+                padding: 1rem 0;
+            }
+        }
+    }
+    .app-download .app-text-main{
+        padding: 0;
+        text-align: center;
+    }
+    .app-download .app-text-main h2{
+        max-width: 100%;
+        padding: 0.5rem 0;
+        font-size: 2rem;
+    }
+    .app-download .app-text-main P{
+        margin: 1.5rem 0;
+    }
+    .app-download .app-text-main img{
+        margin: 0;
+    }
+    .app-download{
+        padding-bottom: 1rem;
+    }
+    .booking-step-main .heading{
+        >h3{
+            font-size: 2rem;
+        }
+    }
+    .booking-step-main .card-main-box{
+        margin: 1rem 0;
+        padding: 0;
+    }
+    .about-main-section{
+        display: none   ;
+    }
+    .latest-blog-sec .blog-card-main{
+        border: 1px solid lightgrey;
+        padding: 0.5rem;
+        text-align: center;
+    }
+    .latest-blog-sec .blog-card-main .main-text{
+        margin-bottom: 0;
+        padding: 0.5rem 0;
+        line-height: normal;
+        font-size: 18px;
+    }
+    .latest-blog-sec .blog-card-main .normal-text{
+        font-size: 14px;
+    }
+    .offer-section .offers-main-box{
+        padding: 0;
+    }
+    .offer-section .offers-main-box .offer-main-text{
+        max-width: 100%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .offers-text{
+        text-align: center;
+    }
+    .offer-section .offer-btn-main{
+        height: 80px;
+        justify-content: center;
+    }
+    footer{
+        border-top: 1px solid grey;
+        padding: 2rem 0.5rem;
+    }
+    .footer-main-column{
+        ul{
+            padding-left: 0;
+        }
+    }
+    .ticket-booking{
+        padding: 1rem 0;
+    }
+}
